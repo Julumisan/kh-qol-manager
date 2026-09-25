@@ -100,7 +100,11 @@ python .\KH_QoL\tests\kh1_runtime\test_kh1.py
 
 En partida: `python KH_QoL\research\tools\live_check.py KH_QoL\research\tools` vuelca el estado de todos los parches; los `watch*.py` sirven de monitores. Cambiar la config en caliente = guardar desde el gestor (o `Save-KHQoLSettings`); se aplica en ~2 s. Cambiar código Lua = F1 en el juego.
 
-## 7. Mapa de documentos
+## 7. Repositorio
+
+Privado: `github.com/Julumisan/kh-qol-manager` (rama `main`). El repo vive **dentro de la carpeta del juego** con un `.gitignore` de lista blanca: sólo se versionan los scripts del gestor, `KH_QoL/lib`, `scripts` (sin `runtime.lua`), `config/presets.json`, `docs`, `tests`, `tools` y `research/tools`. Nunca se suben saves, logs, `settings.json`, `vendor`, `pydeps`, repos clonados ni los scripts de análisis de saves con datos personales. Autor único: el usuario; **sin coautoría de IA** en los commits.
+
+## 8. Mapa de documentos
 
 - `README.md`: uso y estado para el usuario.
 - `TECHNICAL.md`: mecanismos, mapa de memoria, patrones y ranuras privadas.
