@@ -1,0 +1,42 @@
+# Allowlist: this repository lives inside the game folder, so everything is
+# ignored except the project's own source files.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/KH_QoL_Manager.cmd
+!/KH_QoL_Manager.ps1
+!/Uninstall_KH_QoL.cmd
+!/Uninstall_KH_QoL.ps1
+!/KH_QoL/
+
+/KH_QoL/*
+!/KH_QoL/README.md
+!/KH_QoL/LICENSE
+!/KH_QoL/THIRD_PARTY_NOTICES.md
+!/KH_QoL/CHANGELOG.md
+!/KH_QoL/lib/
+!/KH_QoL/config/
+!/KH_QoL/scripts/
+!/KH_QoL/docs/
+!/KH_QoL/tests/
+!/KH_QoL/tools/
+!/KH_QoL/research/
+
+# user data / generated
+/KH_QoL/config/*
+!/KH_QoL/config/presets.json
+/KH_QoL/scripts/**/runtime.lua
+__pycache__/
+
+# research: only our own tools (no cloned repos, third-party binaries or save data)
+/KH_QoL/research/*
+!/KH_QoL/research/tools/
+!/KH_QoL/research/find_xrefs.py
+!/KH_QoL/research/scan_aob.py
+!/KH_QoL/research/inspect_process_memory.py
+/KH_QoL/research/tools/*.pkl
+/KH_QoL/research/tools/*.bin
+/KH_QoL/research/tools/*.png
+/KH_QoL/research/tools/convert.py
+/KH_QoL/research/tools/savekey.py

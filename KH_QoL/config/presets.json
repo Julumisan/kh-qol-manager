@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "presets": {
+    "Vanilla": {
+      "exp_multiplier": 1.0, "munny_multiplier": 1.0, "drop_multiplier": 1.0, "pickup_radius_multiplier": 1.0,
+      "player_hp_multiplier": 1.0, "mp_multiplier": 1.0, "player_damage_multiplier": 1.0, "damage_received_multiplier": 1.0,
+      "enemy_hp_multiplier": 1.0, "boss_hp_multiplier": 1.0, "enemy_damage_multiplier": 1.0,
+      "movement_speed_multiplier": 1.0, "jump_multiplier": 1.0,
+      "infinite_hp": false, "infinite_mp": false, "one_hit_enemies": false, "one_hit_bosses": false,
+      "invulnerability": false, "save_anywhere": false, "instant_retry": false, "faster_text": false, "automatic_pickup": false,
+      "multiply_shop_sales": false, "instant_gummi": false
+    },
+    "Light QoL": {
+      "exp_multiplier": 1.5, "munny_multiplier": 1.5, "drop_multiplier": 1.0, "pickup_radius_multiplier": 1.0,
+      "player_hp_multiplier": 1.0, "mp_multiplier": 1.0, "player_damage_multiplier": 1.0, "damage_received_multiplier": 1.0,
+      "enemy_hp_multiplier": 1.0, "boss_hp_multiplier": 1.0, "enemy_damage_multiplier": 1.0,
+      "movement_speed_multiplier": 1.0, "jump_multiplier": 1.0,
+      "infinite_hp": false, "infinite_mp": false, "one_hit_enemies": false, "one_hit_bosses": false,
+      "invulnerability": false, "save_anywhere": false, "instant_retry": false, "faster_text": false, "automatic_pickup": false,
+      "multiply_shop_sales": false, "instant_gummi": false
+    },
+    "Dad Mode": {
+      "exp_multiplier": 2.0, "munny_multiplier": 3.0, "drop_multiplier": 3.0, "pickup_radius_multiplier": 3.0,
+      "player_hp_multiplier": 1.0, "mp_multiplier": 1.0, "player_damage_multiplier": 1.0, "damage_received_multiplier": 1.0,
+      "enemy_hp_multiplier": 1.0, "boss_hp_multiplier": 1.0, "enemy_damage_multiplier": 1.0,
+      "movement_speed_multiplier": 1.5, "jump_multiplier": 1.0,
+      "infinite_hp": false, "infinite_mp": false, "one_hit_enemies": false, "one_hit_bosses": false,
+      "invulnerability": false, "save_anywhere": false, "instant_retry": false, "faster_text": true, "automatic_pickup": false,
+      "multiply_shop_sales": false, "instant_gummi": false
+    },
+    "Chaos / Sandbox": {
+      "exp_multiplier": 10.0, "munny_multiplier": 10.0, "drop_multiplier": 10.0, "pickup_radius_multiplier": 10.0,
+      "player_hp_multiplier": 1.0, "mp_multiplier": 1.0, "player_damage_multiplier": 1.0, "damage_received_multiplier": 1.0,
+      "enemy_hp_multiplier": 1.0, "boss_hp_multiplier": 1.0, "enemy_damage_multiplier": 1.0,
+      "movement_speed_multiplier": 1.25, "jump_multiplier": 1.0,
+      "infinite_hp": true, "infinite_mp": true, "one_hit_enemies": false, "one_hit_bosses": false,
+      "invulnerability": false, "save_anywhere": false, "instant_retry": false, "faster_text": false, "automatic_pickup": false,
+      "multiply_shop_sales": true, "instant_gummi": true
+    }
+  }
+}
