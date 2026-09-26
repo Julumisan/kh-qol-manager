@@ -4,6 +4,7 @@
 !/.gitignore
 !/.gitattributes
 !/README.md
+!/LICENSE
 !/KH_QoL_Manager.cmd
 !/KH_QoL_Manager.ps1
 !/Uninstall_KH_QoL.cmd
