@@ -102,7 +102,7 @@ En partida: `python KH_QoL\research\tools\live_check.py KH_QoL\research\tools` v
 
 ## 7. Repositorio
 
-Privado: `github.com/Julumisan/kh-qol-manager` (rama `main`). El repo vive **dentro de la carpeta del juego** con un `.gitignore` de lista blanca: sólo se versionan los scripts del gestor, `KH_QoL/lib`, `scripts` (sin `runtime.lua`), `config/presets.json`, `docs`, `tests`, `tools` y `research/tools`. Nunca se suben saves, logs, `settings.json`, `vendor`, `pydeps`, repos clonados ni los scripts de análisis de saves con datos personales. Autor único: el usuario; **sin coautoría de IA** en los commits.
+Público: `github.com/Julumisan/kh-qol-manager` (rama `main`, licencia MIT). El repo vive **dentro de la carpeta del juego** con un `.gitignore` de lista blanca: sólo se versionan los scripts del gestor, `KH_QoL/lib`, `scripts` (sin `runtime.lua`), `config/presets.json`, `docs`, `tests`, `tools` y `research/tools`. Nunca se suben saves, logs, `settings.json`, `vendor`, `pydeps`, repos clonados ni los scripts de análisis de saves con datos personales. Autor único: el usuario; **sin coautoría de IA** en los commits.
 
 ## 8. Mapa de documentos
 

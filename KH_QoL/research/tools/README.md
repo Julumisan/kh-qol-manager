@@ -14,6 +14,6 @@ Sólo lectura sobre el juego, salvo que se diga lo contrario. Requieren Python 3
 | `live_check.py <esta carpeta>` | Volcado del estado de todos los parches del mod en el juego en marcha. |
 | `watch.py` / `watchhp.py` / `watchtext.py` | Monitores de cambios: munny y Lucky Strike, HP/MP/velocidad, estructura de texto. Pensados para `Monitor`/terminal (una línea por cambio). |
 | `textscan.py S` | Muestrea zonas de diálogo durante S segundos y ordena candidatos a contador. |
-| `savekey.py` / `convert.py` | Análisis y conversión del contenedor de saves (cabecera XOR + `MD5(SteamID+"1")`). La versión pública para usuarios es `github.com/Julumisan/kh-pc-save-transfer`. `convert.py` **escribe** un archivo de salida (no el save). |
+| Saves | El análisis del contenedor de saves (cabecera XOR + `MD5(SteamID+"1")`) se publicó como herramienta aparte: `github.com/Julumisan/kh-pc-save-transfer`. Los scripts de análisis locales no se incluyen en el repo. |
 
 Direcciones = RVA respecto a la base del módulo (igual que LuaBackend).
